@@ -43,9 +43,5 @@ while True:
 print("Clientes atendidos:", clientes)
 print("Dinero total en caja: $", round(caja, 2))
 print("Fin del programa")
-    print("Precio unitario: $", round(precio, 2))
-    print("Subtotal: $", round(subtotal, 2))
-    print("IVA: $", round(iva, 2))
-    print("Total a pagar: $", round(total, 2))
 
    
