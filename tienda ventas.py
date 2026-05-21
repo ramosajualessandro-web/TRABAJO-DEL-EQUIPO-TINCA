@@ -22,6 +22,27 @@ while True:
 
     print("\nProducto:", producto)
     print("Cantidad:", cantidad)
+
+    pago = float(input("\nCantidad con la que paga el cliente: $"))
+
+    while pago < total:
+        print("Dinero insuficiente")
+        pago = float(input("Ingrese otra cantidad: $"))
+
+    cambio = pago - total
+
+    print("Cambio: $", round(cambio, 2))
+
+    caja += total
+
+    opcion = input("\n¿Desea registrar otra venta? (si/no): ").lower()
+
+    if opcion != "si":
+        break
+
+print("Clientes atendidos:", clientes)
+print("Dinero total en caja: $", round(caja, 2))
+print("Fin del programa")
     print("Precio unitario: $", round(precio, 2))
     print("Subtotal: $", round(subtotal, 2))
     print("IVA: $", round(iva, 2))
