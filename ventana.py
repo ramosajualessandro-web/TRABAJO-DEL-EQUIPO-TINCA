@@ -37,12 +37,12 @@ def venta():
             resultado.config(
                 text=
                 "Cliente: " + str(clientes) +
-                "\nProducto: " + producto +
-                "\nSubtotal: $" + str(round(subtotal, 2)) +
-                "\nIVA: $" + str(round(iva, 2)) +
-                "\nTotal: $" + str(round(total, 2)) +
-                "\nCambio: $" + str(round(cambio, 2)) +
-                "\nCaja Total: $" + str(round(caja, 2)),
+                "Producto: " + producto +
+                "Subtotal: $" + str(round(subtotal, 2)) +
+                "IVA: $" + str(round(iva, 2)) +
+                "Total: $" + str(round(total, 2)) +
+                "Cambio: $" + str(round(cambio, 2)) +
+                "Caja Total: $" + str(round(caja, 2)),
                 fg="green"
             )
 
